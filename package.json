@@ -7,10 +7,11 @@
     "build": "node esbuild.build.js",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "postinstall": "flowbite-react register"
   },
   "dependencies": {
-    "flowbite-react": "^0.12.3",
+    "flowbite-react": "^0.12.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
